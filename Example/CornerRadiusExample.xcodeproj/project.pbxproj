@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A33A951817CF722C0026D721 /* TCRRoundRectSelectedCellBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = A33A951717CF722C0026D721 /* TCRRoundRectSelectedCellBackgroundView.m */; };
+		A3FB625917CF6BF300189CCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3FB625817CF6BF300189CCD /* UIKit.framework */; };
+		A3FB625B17CF6BF300189CCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3FB625A17CF6BF300189CCD /* Foundation.framework */; };
+		A3FB625D17CF6BF300189CCD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3FB625C17CF6BF300189CCD /* CoreGraphics.framework */; };
+		A3FB626317CF6BF300189CCD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3FB626117CF6BF300189CCD /* InfoPlist.strings */; };
+		A3FB626517CF6BF300189CCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FB626417CF6BF300189CCD /* main.m */; };
+		A3FB626917CF6BF400189CCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FB626817CF6BF400189CCD /* AppDelegate.m */; };
+		A3FB626B17CF6BF400189CCD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A3FB626A17CF6BF400189CCD /* Default.png */; };
+		A3FB626D17CF6BF400189CCD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3FB626C17CF6BF400189CCD /* Default@2x.png */; };
+		A3FB626F17CF6BF400189CCD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3FB626E17CF6BF400189CCD /* Default-568h@2x.png */; };
+		A3FB627217CF6BF400189CCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FB627117CF6BF400189CCD /* ViewController.m */; };
+		A3FB627517CF6BF400189CCD /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3FB627317CF6BF400189CCD /* ViewController.xib */; };
+		A3FB628217CF6C6A00189CCD /* TCRRoundRectCellBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FB627D17CF6C6A00189CCD /* TCRRoundRectCellBackgroundView.m */; };
+		A3FB628317CF6C6A00189CCD /* UITableView+TCRCornerRadiusAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FB627F17CF6C6A00189CCD /* UITableView+TCRCornerRadiusAdditions.m */; };
+		A3FB628417CF6C6A00189CCD /* UITableViewCell+TCRCornerRadiusAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FB628117CF6C6A00189CCD /* UITableViewCell+TCRCornerRadiusAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A33A951617CF722C0026D721 /* TCRRoundRectSelectedCellBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCRRoundRectSelectedCellBackgroundView.h; path = ../../Classes/TCRRoundRectSelectedCellBackgroundView.h; sourceTree = "<group>"; };
+		A33A951717CF722C0026D721 /* TCRRoundRectSelectedCellBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCRRoundRectSelectedCellBackgroundView.m; path = ../../Classes/TCRRoundRectSelectedCellBackgroundView.m; sourceTree = "<group>"; };
+		A3FB625517CF6BF300189CCD /* CornerRadiusExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CornerRadiusExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3FB625817CF6BF300189CCD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A3FB625A17CF6BF300189CCD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A3FB625C17CF6BF300189CCD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A3FB626017CF6BF300189CCD /* CornerRadiusExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CornerRadiusExample-Info.plist"; sourceTree = "<group>"; };
+		A3FB626217CF6BF300189CCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A3FB626417CF6BF300189CCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3FB626617CF6BF300189CCD /* CornerRadiusExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CornerRadiusExample-Prefix.pch"; sourceTree = "<group>"; };
+		A3FB626717CF6BF300189CCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3FB626817CF6BF400189CCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3FB626A17CF6BF400189CCD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A3FB626C17CF6BF400189CCD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A3FB626E17CF6BF400189CCD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A3FB627017CF6BF400189CCD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A3FB627117CF6BF400189CCD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A3FB627417CF6BF400189CCD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A3FB627C17CF6C6A00189CCD /* TCRRoundRectCellBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCRRoundRectCellBackgroundView.h; path = ../../Classes/TCRRoundRectCellBackgroundView.h; sourceTree = "<group>"; };
+		A3FB627D17CF6C6A00189CCD /* TCRRoundRectCellBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCRRoundRectCellBackgroundView.m; path = ../../Classes/TCRRoundRectCellBackgroundView.m; sourceTree = "<group>"; };
+		A3FB627E17CF6C6A00189CCD /* UITableView+TCRCornerRadiusAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableView+TCRCornerRadiusAdditions.h"; path = "../../Classes/UITableView+TCRCornerRadiusAdditions.h"; sourceTree = "<group>"; };
+		A3FB627F17CF6C6A00189CCD /* UITableView+TCRCornerRadiusAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableView+TCRCornerRadiusAdditions.m"; path = "../../Classes/UITableView+TCRCornerRadiusAdditions.m"; sourceTree = "<group>"; };
+		A3FB628017CF6C6A00189CCD /* UITableViewCell+TCRCornerRadiusAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+TCRCornerRadiusAdditions.h"; path = "../../Classes/UITableViewCell+TCRCornerRadiusAdditions.h"; sourceTree = "<group>"; };
+		A3FB628117CF6C6A00189CCD /* UITableViewCell+TCRCornerRadiusAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+TCRCornerRadiusAdditions.m"; path = "../../Classes/UITableViewCell+TCRCornerRadiusAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3FB625217CF6BF300189CCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FB625917CF6BF300189CCD /* UIKit.framework in Frameworks */,
+				A3FB625B17CF6BF300189CCD /* Foundation.framework in Frameworks */,
+				A3FB625D17CF6BF300189CCD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3FB624C17CF6BF300189CCD = {
+			isa = PBXGroup;
+			children = (
+				A3FB625E17CF6BF300189CCD /* CornerRadiusExample */,
+				A3FB625717CF6BF300189CCD /* Frameworks */,
+				A3FB625617CF6BF300189CCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3FB625617CF6BF300189CCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3FB625517CF6BF300189CCD /* CornerRadiusExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3FB625717CF6BF300189CCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3FB625817CF6BF300189CCD /* UIKit.framework */,
+				A3FB625A17CF6BF300189CCD /* Foundation.framework */,
+				A3FB625C17CF6BF300189CCD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3FB625E17CF6BF300189CCD /* CornerRadiusExample */ = {
+			isa = PBXGroup;
+			children = (
+				A3FB627B17CF6C5A00189CCD /* Classes */,
+				A3FB626717CF6BF300189CCD /* AppDelegate.h */,
+				A3FB626817CF6BF400189CCD /* AppDelegate.m */,
+				A3FB627017CF6BF400189CCD /* ViewController.h */,
+				A3FB627117CF6BF400189CCD /* ViewController.m */,
+				A3FB627317CF6BF400189CCD /* ViewController.xib */,
+				A3FB625F17CF6BF300189CCD /* Supporting Files */,
+			);
+			path = CornerRadiusExample;
+			sourceTree = "<group>";
+		};
+		A3FB625F17CF6BF300189CCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3FB626017CF6BF300189CCD /* CornerRadiusExample-Info.plist */,
+				A3FB626117CF6BF300189CCD /* InfoPlist.strings */,
+				A3FB626417CF6BF300189CCD /* main.m */,
+				A3FB626617CF6BF300189CCD /* CornerRadiusExample-Prefix.pch */,
+				A3FB626A17CF6BF400189CCD /* Default.png */,
+				A3FB626C17CF6BF400189CCD /* Default@2x.png */,
+				A3FB626E17CF6BF400189CCD /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3FB627B17CF6C5A00189CCD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A3FB627C17CF6C6A00189CCD /* TCRRoundRectCellBackgroundView.h */,
+				A3FB627D17CF6C6A00189CCD /* TCRRoundRectCellBackgroundView.m */,
+				A33A951617CF722C0026D721 /* TCRRoundRectSelectedCellBackgroundView.h */,
+				A33A951717CF722C0026D721 /* TCRRoundRectSelectedCellBackgroundView.m */,
+				A3FB628017CF6C6A00189CCD /* UITableViewCell+TCRCornerRadiusAdditions.h */,
+				A3FB628117CF6C6A00189CCD /* UITableViewCell+TCRCornerRadiusAdditions.m */,
+				A3FB627E17CF6C6A00189CCD /* UITableView+TCRCornerRadiusAdditions.h */,
+				A3FB627F17CF6C6A00189CCD /* UITableView+TCRCornerRadiusAdditions.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3FB625417CF6BF300189CCD /* CornerRadiusExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3FB627817CF6BF400189CCD /* Build configuration list for PBXNativeTarget "CornerRadiusExample" */;
+			buildPhases = (
+				A3FB625117CF6BF300189CCD /* Sources */,
+				A3FB625217CF6BF300189CCD /* Frameworks */,
+				A3FB625317CF6BF300189CCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CornerRadiusExample;
+			productName = CornerRadiusExample;
+			productReference = A3FB625517CF6BF300189CCD /* CornerRadiusExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3FB624D17CF6BF300189CCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "";
+			};
+			buildConfigurationList = A3FB625017CF6BF300189CCD /* Build configuration list for PBXProject "CornerRadiusExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A3FB624C17CF6BF300189CCD;
+			productRefGroup = A3FB625617CF6BF300189CCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3FB625417CF6BF300189CCD /* CornerRadiusExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3FB625317CF6BF300189CCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FB626317CF6BF300189CCD /* InfoPlist.strings in Resources */,
+				A3FB626B17CF6BF400189CCD /* Default.png in Resources */,
+				A3FB626D17CF6BF400189CCD /* Default@2x.png in Resources */,
+				A3FB626F17CF6BF400189CCD /* Default-568h@2x.png in Resources */,
+				A3FB627517CF6BF400189CCD /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3FB625117CF6BF300189CCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FB626517CF6BF300189CCD /* main.m in Sources */,
+				A3FB626917CF6BF400189CCD /* AppDelegate.m in Sources */,
+				A3FB627217CF6BF400189CCD /* ViewController.m in Sources */,
+				A3FB628217CF6C6A00189CCD /* TCRRoundRectCellBackgroundView.m in Sources */,
+				A3FB628317CF6C6A00189CCD /* UITableView+TCRCornerRadiusAdditions.m in Sources */,
+				A3FB628417CF6C6A00189CCD /* UITableViewCell+TCRCornerRadiusAdditions.m in Sources */,
+				A33A951817CF722C0026D721 /* TCRRoundRectSelectedCellBackgroundView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A3FB626117CF6BF300189CCD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3FB626217CF6BF300189CCD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A3FB627317CF6BF400189CCD /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3FB627417CF6BF400189CCD /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3FB627617CF6BF400189CCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A3FB627717CF6BF400189CCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3FB627917CF6BF400189CCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CornerRadiusExample/CornerRadiusExample-Prefix.pch";
+				INFOPLIST_FILE = "CornerRadiusExample/CornerRadiusExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A3FB627A17CF6BF400189CCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CornerRadiusExample/CornerRadiusExample-Prefix.pch";
+				INFOPLIST_FILE = "CornerRadiusExample/CornerRadiusExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3FB625017CF6BF300189CCD /* Build configuration list for PBXProject "CornerRadiusExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3FB627617CF6BF400189CCD /* Debug */,
+				A3FB627717CF6BF400189CCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3FB627817CF6BF400189CCD /* Build configuration list for PBXNativeTarget "CornerRadiusExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3FB627917CF6BF400189CCD /* Debug */,
+				A3FB627A17CF6BF400189CCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3FB624D17CF6BF300189CCD /* Project object */;
+}

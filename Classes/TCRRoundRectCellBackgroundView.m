@@ -31,8 +31,7 @@ colorToRGBA(UIColor *color, CGFloat *r, CGFloat *g, CGFloat *b, CGFloat *a)
         CGFloat q = v * (1 - s * fl);
         CGFloat t = v * (1 - (1 - fl) * s);
         
-        switch( inn )
-        {
+        switch (inn) {
             case 0:
                 *r = v;
                 *g = t;
@@ -100,7 +99,7 @@ colorToRGBA(UIColor *color, CGFloat *r, CGFloat *g, CGFloat *b, CGFloat *a)
 
 - (BOOL)isOpaque
 {
-	return NO;
+    return NO;
 }
 
 - (UITableView *)tableView
@@ -205,10 +204,10 @@ colorToRGBA(UIColor *color, CGFloat *r, CGFloat *g, CGFloat *b, CGFloat *a)
     UITableView *tableView = [self tableView];
     UITableViewCellSeparatorStyle separatorStyle = tableView.separatorStyle;
     
-	CGFloat minX = CGRectGetMinX(bounds);
+    CGFloat minX = CGRectGetMinX(bounds);
     CGFloat midX = CGRectGetMidX(bounds);
     CGFloat maxX = CGRectGetMaxX(bounds);
-	CGFloat minY = CGRectGetMinY(bounds);
+    CGFloat minY = CGRectGetMinY(bounds);
     CGFloat midY = CGRectGetMidY(bounds);
     CGFloat maxY = CGRectGetMaxY(bounds);
     
@@ -290,10 +289,10 @@ colorToRGBA(UIColor *color, CGFloat *r, CGFloat *g, CGFloat *b, CGFloat *a)
     UITableView *tableView = [self tableView];
     //UITableViewCellSeparatorStyle separatorStyle = tableView.separatorStyle;
     
-	CGFloat minX = CGRectGetMinX(bounds);
+    CGFloat minX = CGRectGetMinX(bounds);
     CGFloat midX = CGRectGetMidX(bounds);
     CGFloat maxX = CGRectGetMaxX(bounds);
-	CGFloat minY = CGRectGetMinY(bounds);
+    CGFloat minY = CGRectGetMinY(bounds);
     //CGFloat midY = CGRectGetMidY(bounds); // Unused
     CGFloat maxY = CGRectGetMaxY(bounds);
     
@@ -331,10 +330,10 @@ colorToRGBA(UIColor *color, CGFloat *r, CGFloat *g, CGFloat *b, CGFloat *a)
     UITableView *tableView = [self tableView];
     //UITableViewCellSeparatorStyle separatorStyle = self.tableView.separatorStyle;
     
-	CGFloat minX = CGRectGetMinX(bounds);
+    CGFloat minX = CGRectGetMinX(bounds);
     //CGFloat midX = CGRectGetMidX(bounds); // Unused
     CGFloat maxX = CGRectGetMaxX(bounds);
-	CGFloat minY = CGRectGetMinY(bounds);
+    CGFloat minY = CGRectGetMinY(bounds);
     //CGFloat midY = CGRectGetMidY(bounds); // Unused
     CGFloat maxY = CGRectGetMaxY(bounds);
     
@@ -380,10 +379,10 @@ colorToRGBA(UIColor *color, CGFloat *r, CGFloat *g, CGFloat *b, CGFloat *a)
     UITableView *tableView = [self tableView];
     UITableViewCellSeparatorStyle separatorStyle = tableView.separatorStyle;
     
-	CGFloat minX = CGRectGetMinX(bounds);
+    CGFloat minX = CGRectGetMinX(bounds);
     CGFloat midX = CGRectGetMidX(bounds);
     CGFloat maxX = CGRectGetMaxX(bounds);
-	CGFloat minY = CGRectGetMinY(bounds);
+    CGFloat minY = CGRectGetMinY(bounds);
     //CGFloat midY = CGRectGetMidY(bounds); // Unused
     CGFloat maxY = CGRectGetMaxY(bounds);
     
@@ -434,8 +433,8 @@ colorToRGBA(UIColor *color, CGFloat *r, CGFloat *g, CGFloat *b, CGFloat *a)
 - (void)drawRect:(CGRect)rect
 {
     CGContextRef c = UIGraphicsGetCurrentContext();
-	CGContextSetAllowsAntialiasing(c, YES);
-	CGContextSetShouldAntialias(c, YES);
+    CGContextSetAllowsAntialiasing(c, YES);
+    CGContextSetShouldAntialias(c, YES);
     
     switch (_cellType) {
         case OrphanCell:

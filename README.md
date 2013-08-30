@@ -11,9 +11,11 @@ Usage
 
 Clone TCRCornerRadiusAdditions repository from github and copy all files in `Classes' directory to your project.
 
-Add configureCornerRadiusCell: method call to your TableViewDataSource's tableView:cellForRowAtIndexPath: method.
+Import UITableView+TCRCornerRadiusAdditions.h and add configureCornerRadiusCell: method call to your TableViewDataSource's tableView:cellForRowAtIndexPath: method.
 
 ```objective-c
+#import "UITableView+TCRCornerRadiusAdditions.h"
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *identifier = @"CellIdentifier";
